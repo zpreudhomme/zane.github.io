@@ -37,8 +37,29 @@ ol, ul {
 	list-style: none;
 }
 
+.technologies_container{
+	/* display: flex;
+	justify-content: space-between; */
+}
+
 .tech-img{
-	width: 75px;
+	max-width: 75px;
+	max-height: 75px;
+	padding: 10px;
+}
+
+#react_logo{
+	max-width: 100px;
+	max-height: 100px;
+	padding: 0px;
+	margin-left: -17px;
+	margin-right: -17px;
+}
+
+#aws_logo{
+	max-height: 90px;
+	max-width: 90px;
+	padding: 0px;
 }
 
 blockquote, q {
